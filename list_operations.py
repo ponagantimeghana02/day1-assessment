@@ -12,6 +12,7 @@ employees = [
 #  Sort list 
 #  Reverse list 
 #  Find length 
+
 employees.append("meghana")
 print("after appending element",employees)
 employees.remove("Kiran")
