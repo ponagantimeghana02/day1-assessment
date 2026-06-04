@@ -50,4 +50,15 @@ elif(userAge<60):
 else:
     print("Senior Citizen")
 
+#display 1 to 50 using for and while loops 
+
+for i in range(1,51):
+    print(i)
+
+i=1
+while(i<=50):
+    print(i)
+    i=i+1
+
+
 
