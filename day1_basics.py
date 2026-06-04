@@ -1,64 +1,61 @@
-#Task1
+# Task 1
 
-# Printed in formatted output.
+# Formatted Output
+user_name = "Meghana"
+user_age = 21
+user_email = "meghana@gmail.com"
+monthly_salary = 25000.00
 
-name="meghana"
-age=21
-email="meghana@gmail.com"
-salary=25000.00
+print(f"Name: {user_name}")
+print(f"Age: {user_age}")
+print(f"Email: {user_email}")
+print(f"Salary: {monthly_salary}")
 
-print(f"name is {name}")
-print(f"age is {age}")
-print(f"email is {email}")
-print(f"salary is {salary}")
+# Data Types
+is_active = False
+first_names = ["Megha", "Srivya", "Niha"]
+last_names = ("Ponaganti", "Guntha", "Adapa")
+student_marks = {"Sanjana": 2, "Thrisha": 5}
+salary_set = {10000, 2000, 4000}
 
-#printing DataTypes
-
-boolean=False
-firstNames=["Megha","Srivya","Niha"]
-lastNames=("Ponaganti","Guntha","Adapa")
-students={"Sanjana":2,"Thrisha":5}
-salaries={10000,2000,4000}
-
-print(type(name))
-print(type(age))
-print(type(salary))
-print(type(boolean))
-print(type(firstNames))
-print(type(lastNames))
-print(type(students))
-print(type(salaries))
+print(type(user_name))
+print(type(user_age))
+print(type(monthly_salary))
+print(type(is_active))
+print(type(first_names))
+print(type(last_names))
+print(type(student_marks))
+print(type(salary_set))
 
 # Operators
-num1=5
-num2=2
+first_number = 5
+second_number = 2
 
-print(f"sum of num1 and num2 is {num1+num2}")
-print(f"subtraction of num1 and num2 is {num1-num2}")
-print(f"multiplication of num1 and num2 is {num1*num2}")
-print(f"division of num1 and num2 is {num1/num2}")
-print(f"modulus of num1 and num2 is {num1%num2}")
+print(f"Addition: {first_number + second_number}")
+print(f"Subtraction: {first_number - second_number}")
+print(f"Multiplication: {first_number * second_number}")
+print(f"Division: {first_number / second_number}")
+print(f"Modulus: {first_number % second_number}")
 
-# Take user age input and classify the age.
+# Age Classification
+try:
+    entered_age = int(input("Enter age of user: "))
+    if entered_age < 18:
+        print("Minor")
+    elif entered_age < 60:
+        print("Adult")
+    else:
+        print("Senior Citizen")
+except ValueError:
+    print("ValueError Occurred provide valid age")
 
-userAge=int(input("enter age of user:"))
+    
+# Display 1 to 50 using for loop
+for number in range(1, 51):
+    print(number)
 
-if(userAge<18):
-    print("Minor")
-elif(userAge<60):
-    print("Adult")
-else:
-    print("Senior Citizen")
-
-#display 1 to 50 using for and while loops 
-
-for i in range(1,51):
-    print(i)
-
-i=1
-while(i<=50):
-    print(i)
-    i=i+1
-
-
-
+# Display 1 to 50 using while loop
+current_number = 1
+while current_number <= 50:
+    print(current_number)
+    current_number += 1

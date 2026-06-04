@@ -27,3 +27,5 @@ Task 6:File handling.
 Task 7:Exceptional Handling using try,except,finally.
 
 Task 8: API Fetch.
+
+Updated day1_basics.py file as per naming conventions and followed PEP8 rules.
