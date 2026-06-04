@@ -9,3 +9,5 @@ Stored variables as per the task and printed in formatted way.
 2) Printed types of Data through variable assignment.
 
 3) Performed operations on two numbers.(+,-,*,/,%)
+
+4) Condition based user age classification.

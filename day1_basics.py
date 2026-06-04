@@ -39,6 +39,15 @@ print(f"multiplication of num1 and num2 is {num1*num2}")
 print(f"division of num1 and num2 is {num1/num2}")
 print(f"modulus of num1 and num2 is {num1%num2}")
 
+# Take user age input and classify the age.
 
+userAge=int(input("enter age of user:"))
+
+if(userAge<18):
+    print("Minor")
+elif(userAge<60):
+    print("Adult")
+else:
+    print("Senior Citizen")
 
 
