@@ -25,3 +25,5 @@ Task 5:OOPs Basics.
 Task 6:File handling.
 
 Task 7:Exceptional Handling using try,except,finally.
+
+Task 8: API Fetch.
