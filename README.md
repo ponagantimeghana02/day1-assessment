@@ -21,3 +21,5 @@ Task 3: List operations.
 Task 4: Dictionary Operations.
 
 Task 5:OOPs Basics.
+
+Task 6:File handling.
