@@ -1,7 +1,11 @@
 # day1-assessment
 Day1 assessment on Python Fundamentals + AI Readiness
 
-Created Day1_basics.py file.
+Task 01:
+
+1) Created Day1_basics.py file.
 Stored variables as per the task and printed in formatted way.
 
-Printed types of Data through variable assignment.
+2) Printed types of Data through variable assignment.
+
+3) Performed operations on two numbers.(+,-,*,/,%)

@@ -1,36 +1,18 @@
 #Task1
-# Variables
-# Store:
 
-# name
-# age
-# email
-# salary
-
-# Print them in formatted output.
+# Printed in formatted output.
 
 name="meghana"
 age=21
 email="meghana@gmail.com"
 salary=25000.00
+
 print(f"name is {name}")
 print(f"age is {age}")
 print(f"email is {email}")
 print(f"salary is {salary}")
 
-# Data Types
-# Create examples for:
-
-# str
-# int
-# float
-# bool
-# list
-# tuple
-# dict
-# set
-
-# Print the type of each.
+#printing DataTypes
 
 boolean=False
 firstNames=["Megha","Srivya","Niha"]
@@ -46,4 +28,17 @@ print(type(firstNames))
 print(type(lastNames))
 print(type(students))
 print(type(salaries))
+
+# Operators
+num1=5
+num2=2
+
+print(f"sum of num1 and num2 is {num1+num2}")
+print(f"subtraction of num1 and num2 is {num1-num2}")
+print(f"multiplication of num1 and num2 is {num1*num2}")
+print(f"division of num1 and num2 is {num1/num2}")
+print(f"modulus of num1 and num2 is {num1%num2}")
+
+
+
 
