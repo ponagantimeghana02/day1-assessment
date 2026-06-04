@@ -1,3 +1,11 @@
+#Task 3:
+# Perform:
+#  Add item 
+#  Remove item 
+#  Sort list 
+#  Reverse list 
+#  Find length 
+
 employees = [
     "Ajay",
     "Rahul",
@@ -5,13 +13,6 @@ employees = [
     "Kiran",
     "Sneha"
 ]
-
-# Perform:
-#  Add item 
-#  Remove item 
-#  Sort list 
-#  Reverse list 
-#  Find length 
 
 employees.append("meghana")
 print("after appending element",employees)
